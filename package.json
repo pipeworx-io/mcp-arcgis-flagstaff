@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-arcgis-flagstaff",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "City of Flagstaff GIS — Flagstaff, Arizona open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-arcgis-flagstaff": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "arcgis-flagstaff"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-arcgis-flagstaff"
+    "url": "git+https://github.com/pipeworx-io/mcp-arcgis-flagstaff.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-46070f28a42157d37a12c96d0cd45bc1438860f14551ce2394a3e29d4e5b9a10",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
