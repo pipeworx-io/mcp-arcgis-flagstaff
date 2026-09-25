@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-arcgis-flagstaff",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "City of Flagstaff GIS — Flagstaff, Arizona open geospatial data (ArcGIS).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-46070f28a42157d37a12c96d0cd45bc1438860f14551ce2394a3e29d4e5b9a10",
-    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
+    "sourceHash": "v1-ce0350dff26c1c7d167ea23e24b591fd6f442ec01f72483fb1b2c9719b867c36",
+    "sourceCommit": "dca20ba6e13a9aa1c9f2918fc2ddaffe4cc30e5c"
   }
 }
